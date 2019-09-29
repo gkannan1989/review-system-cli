@@ -34,7 +34,7 @@ const config = {
     publicPath: '/',
     historyApiFallback: true,
     port:'8000',
-    host: 'review-system-employee.herokuapp.com'
+    host: '127.0.0.1'
   },
 
   resolve: {
