@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 const config = {
   devtool: 'cheap-module-eval-source-map',
-  
+
   context: resolve(__dirname, 'src'),
 
   entry: [
@@ -68,7 +68,7 @@ const config = {
     new webpack.DefinePlugin({
       'process.env': {
         'NODE_ENV': JSON.stringify(process.env.NODE_ENV),
-        'API_URL': JSON.stringify(process.env.API_URL)
+        'API_URL': JSON.stringify('http://localhost:3000/api/v1')
       }
     }),
     new ExtractTextPlugin({ filename: './styles/style.css' }),
