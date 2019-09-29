@@ -33,7 +33,7 @@ const config = {
     contentBase: resolve(__dirname, 'build'),
     publicPath: '/',
     historyApiFallback: true,
-    port:'8000',
+    port:'8080',
     host: '127.0.0.1'
   },
 
