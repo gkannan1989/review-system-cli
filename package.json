@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "cross-env NODE_ENV=development webpack-dev-server ---mode development --open",
+    "start": "cross-env NODE_ENV=development webpack-dev-server ---mode development --open",
     "build": "rm -rf ./dist && npm run test && npm run build:webpack",
     "build:webpack": "cross-env NODE_ENV=production webpack --mode production --config webpack.config.prod.js --progress --profile --colors"
   },
