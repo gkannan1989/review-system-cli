@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env --optimize_for_size --max_old_space_size=920 --gc_interval=100  NODE_ENV=development webpack-dev-server ---mode development --open",
+    "start": "node --optimize_for_size --max_old_space_size=920 --gc_interval=100   && cross-env NODE_ENV=development webpack-dev-server ---mode development --open",
     "build": "rm -rf ./dist && npm run test && npm run build:webpack",
     "build:webpack": "cross-env NODE_ENV=production webpack --mode production --config webpack.config.prod.js --progress --profile --colors"
   },
