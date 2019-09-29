@@ -13,7 +13,7 @@ const config = {
 
   entry: [
     'react-hot-loader/patch',
-    'webpack-dev-server/client?https://review-system-employee.herokuapp.com',
+    'webpack-dev-server/client?http://localhost',
     'webpack/hot/only-dev-server',
     './index.jsx',
     './styles/main.scss',
@@ -33,7 +33,7 @@ const config = {
     contentBase: resolve(__dirname, 'build'),
     publicPath: '/',
     historyApiFallback: true,
-    port:'8080',
+    port:'8000',
     host: '0.0.0.0'
   },
 
