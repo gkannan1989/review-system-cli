@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --optimize_for_size --max_old_space_size=460 --gc_interval=100   && cross-env NODE_ENV=development webpack-dev-server ---mode development --open",
+    "start": "cross-env NODE_ENV=development webpack-dev-server ---mode development --open",
     "build": "rm -rf ./dist && npm run test && npm run build:webpack",
     "build:webpack": "cross-env NODE_ENV=production webpack --mode production --config webpack.config.prod.js --progress --profile --colors"
   },
@@ -48,7 +48,7 @@
     "html-webpack-plugin": "^3.2.0",
     "lodash": "^4.17.10",
     "moment": "^2.22.2",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.12.0",
     "postcss-cssnext": "^3.1.0",
     "postcss-loader": "^2.1.5",
     "prop-types": "^15.6.1",
