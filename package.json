@@ -68,28 +68,26 @@
     "enzyme": "^3.3.0",
     "enzyme-adapter-react-16": "^1.1.1",
     "enzyme-to-json": "^3.3.3",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "resolve-url-loader": "^2.3.0"
+  },
+  "devDependencies": {
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.21.0",
+    "node-sass": "^4.9.0",
+    "nodemon": "^1.17.4",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-loader": "^2.1.5",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-loader": "^2.0.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
-    "file-loader": "^1.1.11",
-    "html-webpack-plugin": "^3.2.0",
-    "node-sass": "^4.9.0",
-    "nodemon": "^1.17.4",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-loader": "^2.1.5",
-    "resolve-url-loader": "^2.3.0",
-    "sass-loader": "^7.0.1",
-    "style-loader": "^0.21.0"
-  },
-  "devDependencies": {
     "redux-mock-store": "^1.5.1",
     "jest": "^25.0.0",
     "jest-css-modules": "^2.1.0",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-loader": "^2.1.5",
     "react-test-renderer": "^16.3.2"
   }
 }
