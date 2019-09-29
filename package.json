@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=production webpack-dev-server ---mode production --config webpack.config.prod.js --optimize_for_size --max_old_space_size=1024 --progress --profile --colors",
+    "start": "NODE_ENV=development webpack-dev-server ---mode development --config webpack.config.js --optimize_for_size --max_old_space_size=1024",
     "build": "rm -rf ./dist && npm run test && npm run build:webpack",
     "build:webpack": "NODE_ENV=production webpack --mode production --config webpack.config.prod.js --progress --profile --colors"
   },
