@@ -13,7 +13,7 @@ const config = {
 
   entry: [
     'react-hot-loader/patch',
-    'webpack-dev-server/client?http://localhost:8080',
+    'webpack-dev-server/client?https://review-system-employee.herokuapp.com',
     'webpack/hot/only-dev-server',
     './index.jsx',
     './styles/main.scss',
